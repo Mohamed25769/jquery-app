@@ -1,0 +1,179 @@
+
+/* HEADER */
+header{
+  background-image:  url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.over-lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+  
+}
+
+/* ASIDE */
+aside{
+  height: 100vh;
+  width: 270px;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: #fff;
+  transition: all 1s;
+  z-index: 10;
+
+}
+.closeAside{
+  top: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+.open a{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 30px;
+  display: inline-block;
+
+}
+
+
+.openIcon{
+  right: -120px;
+  cursor: pointer;
+  top: 50%;
+ 
+
+}
+.openIcon i{
+  font-size: 30px;
+}
+.openIcon span{
+  font-size: 30px;
+}
+/* ABOUT SECTION */
+.about  h3{
+  color: #fff;
+  font-size: 30px;
+  background-color: #e68285;
+  cursor: pointer;
+}
+
+
+.about > div{
+  background-color: #cccccc;
+  display: none;
+}
+/* ACOUNT SECTION */
+.count-sec{
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 330px;
+  position: relative;
+
+}
+.count-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+.item{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.container{
+  padding:100px 0;
+}
+
+/* CONTACT SECTION */
+.contact{
+  margin-top: 50px;
+}
+
+.head{
+}
+
+.contact .head h2{
+  text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact .head p{
+  text-align: center;
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.contact-info{
+}
+.contact-info h3 {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+.icons{
+  margin-top: 50px
+}
+.icons i {
+  margin-right: 20px;
+  color: #777
+}
+.social-list{
+  margin-top: 60px;
+  color: #777;
+}
+.social-list i{
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.social-list i:hover{
+  color: #FFF;
+  background-color: #d62e33;
+}
+/* form */
+ form input,  form textarea {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+form textarea {
+  height: 200px;
+  resize: vertical;
+}
+#chars {
+  font-size: 20px;
+  color: #D62E33;
+}
+
+
